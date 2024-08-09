@@ -29,6 +29,11 @@
     margin-top: 20px;
 }
 
+.selection2 {
+    margin-left: 32vh;
+    margin-bottom: 70px;
+}
+.selection2,
 .selection {
     margin-top: 20px;
     margin-right: 50px;
@@ -116,11 +121,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
 }
 .get-started input {
     background-color: rgba(0, 0, 0, 0.7);
-    border: 1px grey solid;
+    border: 1px rgb(196, 193, 193) solid;
     padding: 15px 20px;
     border-radius: 4px;
     font-size: 16px;
@@ -129,16 +134,18 @@
     max-width: 500px;
 }
 .get-started::placeholder {
-    color: rgb(153, 152, 152);
+    color: rgb(221, 218, 218);
+    font-weight: 600;
 }
 
 .get-started button {
     background-color: #E50914;
     color: white;
     border: none;
-    padding: 6px 15px;
+    padding: 6px 20px;
     border-radius: 4px;
-    font-size: 16px;    
+    font-size: 20px;
+    font-weight: 700;    
 }
 
 .left-text {
@@ -148,8 +155,8 @@
     flex: 1;
     height: 500px;
     justify-content: space-between;
-    margin-left: 25vh;
-    margin-right: 25vh;
+    padding-left: 25vh;
+    padding-right: 20vh;
 }
 
 .right-text {
@@ -166,6 +173,7 @@
 .right-text div :first-child, 
 .left-text div :first-child {
     font-size: 40px;
+    font-weight: bold;
     text-align: left;
 }
 .right-text div :last-child,
@@ -181,10 +189,56 @@
     justify-content: center;
 }
 
-
+/* 
 video {
     position: absolute;
     right: 100px;
     z-index: -1;
     width: 400px;
+} */
+
+.mockup-1, .mockup-2 {
+    position: relative;
+}
+
+.mockup2 {
+    position: relative;
+}
+.downloadss {
+    width: 350px;
+    height: 100px;
+    background-color: beige;
+    position: absolute;
+    bottom: 50px;
+    right: 140px;
+    border-radius: 15px;
+    z-index: 25;
+    background-color: black;
+    border: grey solid 2px;
+    display: flex;
+}
+
+.downloadss img {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    top: 20px;
+}
+.mockup-1 img {
+    z-index: -1;
+}
+.mockup-1 video {
+    z-index: -2;
+    position: absolute;
+    width: 460px;
+    right: 9.3vh;
+    top: 10.3vh;
+}
+
+.mockup-2 video {
+    z-index: -2;
+    position: absolute;
+    width: 400px;
+    right: 13vh;
+    top: 5vh;
 }
