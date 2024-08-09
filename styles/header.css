@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
+    margin-top: 15px;
     flex-wrap: nowrap;
 }
 
