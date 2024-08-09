@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Netflix;
+    src: url("/netflix/fonts/NetflixSansBlack.ttf");
+    src: url("/netflix/fonts/NetflixSansBold.ttf"); 
+    src: url("/netflix/fonts/NetflixSansIcon.ttf");
+    src: url("/netflix/fonts/NetflixSansLight.ttf");
+    src: url("/netflix/fonts/NetflixSansMedium.ttf");
+    src: url("/netflix/fonts/NetflixSansRegular.ttf");
+    src: url("/netflix/fonts/NetflixSansThin.ttf");
+    src: url("/netflix/fonts/NetflixSansThin.ttf");
+    src: url("/netflix/fonts/Netflix\ Sans\ Bold.otf");
+    src: url("/netflix/fonts/Netflix\ Sans\ Medium.otf");
+    src: url("/netflix/fonts/Netflix\ Sans\ Light.otf");
+}
+
+* {
+    font-family: Netflix;
+}
+
+body {
+    background: black;
+    margin: 0;
+}
+/* 
+@media (max-width: 1536px) {
+    body {
+        max-width: 1280px;
+    }
+}
+
+@media (max-width: 1280px) {
+    body {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        max-width: 475px;
+    }
+}
+
+@media (max-width: 475px) {
+    body {
+        width: 100%;
+    }    
+} */

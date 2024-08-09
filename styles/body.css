@@ -1,0 +1,66 @@
+
+.further-page {
+    height: 60vh;
+    /* height: 690px; */
+    width: 100%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: inherit;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 12vw;
+    margin-right: 100px;
+    width: 65vh;
+}
+
+.text :first-child {
+    font-size: 44px;
+    font-weight: 1000;
+    text-align: left;
+}
+
+.text :last-child {
+    font-size: 22px;
+    font-weight: 1100;
+}
+
+.mockup {
+    z-index: 15;
+    position: relative;
+}
+
+.mockups img,
+.mockup :first-child {
+    z-index: 3;
+
+}
+.mockup :last-child {
+    position: absolute;
+    top: 10.5vh;
+    right: 10vh;
+    z-index: 2;
+    width: 450px;
+}
+
+.mockup-right {
+    position: absolute;
+    left: 22vw;
+}
+
+.mockups {
+    position: relative;
+}
+.mockup3 {
+    position: absolute;
+    right: 13vw;
+    top: 16.5vh;
+    width: 23vw;
+}   

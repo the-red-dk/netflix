@@ -1,0 +1,190 @@
+.first-page {
+    height: 630px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -100;    
+}
+
+.main {
+    background-image: url("/netflix/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover, max(1200px, 100vh);
+    min-width: 0;
+    position: relative;
+    background-attachment: scroll;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    height: 38px;
+    margin-left: 176px;
+    margin-top: 20px;
+}
+
+.selection {
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 14px;
+    position: relative;
+    font-weight: 700;
+}
+
+.language {
+    padding-left: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    margin-right: 18px;
+}
+
+.lang-icon {
+    height: 18px;
+    position: absolute;
+    left: 7px;
+    top: 6px;
+}
+
+.red-button {
+    background-color: #E50914;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.entry-text {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    gap: 22px;
+    text-align: center;
+}
+
+.entry-text :first-child {
+    font-size: 5vh;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+
+.entry-text :nth-child(2) {
+    font-size: 22px;
+}
+.entry-text :nth-child(3) {
+    font-size: 18px;
+}
+
+
+.red-button-2 {
+    background-color: #E50914;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    font-size: 20px;
+    font-weight: 1000;   
+}
+
+.divider {
+    height: 8px; 
+    background-color: rgb(35, 35, 35);
+
+}
+
+.get-started {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.get-started input {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px grey solid;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 0;
+    flex: 1;
+    max-width: 500px;
+}
+.get-started::placeholder {
+    color: rgb(153, 152, 152);
+}
+
+.get-started button {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-size: 16px;    
+}
+
+.left-text {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    flex: 1;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+.right-text {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    flex: 1;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+.right-text div :first-child, 
+.left-text div :first-child {
+    font-size: 40px;
+    text-align: left;
+}
+.right-text div :last-child,
+.left-text div :last-child {
+    font-size: 20px;
+    text-align: left;
+}
+
+.text-container {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+video {
+    position: absolute;
+    right: 100px;
+    z-index: -1;
+    width: 400px;
+}
