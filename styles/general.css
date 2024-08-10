@@ -17,12 +17,13 @@
 
 * {
     font-family: Poppins;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 
 }
 
 body {
     background: black;
+    overflow-x: ;
     margin: 0;
 }
 
@@ -120,6 +121,7 @@ body {
         justify-content: center;
         margin-left: 20px;
         margin-right: 20px;
+        flex-wrap: wrap;
     }
 }
 
@@ -136,5 +138,27 @@ body {
         justify-content: center;
         margin-left: 20px;
         margin-right: 20px;
+        flex-wrap: wrap;
+    }
+
+@media (min-width: 375px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .header {
+        justify-content: center;
+    }
+
+    .left-text, .right-text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-wrap: wrap;
     }
 } 
+}
