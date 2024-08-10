@@ -23,7 +23,6 @@
 
 body {
     background: black;
-    overflow-x: ;
     margin: 0;
 }
 
@@ -140,12 +139,17 @@ body {
         margin-right: 20px;
         flex-wrap: wrap;
     }
+}
 
 @media (min-width: 375px) {
     body {
         justify-content: center;
         align-items: center;
+        overflow-x: hidden;
     }    
+    * {
+        overflow-x: hidden;
+    }
 
     .header {
         justify-content: center;
@@ -161,4 +165,3 @@ body {
         flex-wrap: wrap;
     }
 } 
-}

@@ -258,6 +258,7 @@ video {
     z-index: -2;
     position: absolute;
     width: 390px;
+    
     right: 130px;
     top: 50px;
 }
