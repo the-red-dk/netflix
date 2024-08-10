@@ -11,8 +11,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover, max(1200px, 100vh);
-    min-width: 0;
+    max-width: 100%;
     position: relative;
+    margin-inline: auto;
     background-attachment: scroll;
 }
 
@@ -81,6 +82,7 @@
     justify-content: center;
     margin-top: 180px;
     gap: 22px;
+    margin-inline: auto;
     text-align: center;
 }
 
@@ -151,24 +153,24 @@
 
 .left-text {
     display: flex;
-    flex-wrap: wrap;
     color: white;
-    flex: 1;
-    height: 500px;
-    justify-content: space-between;
-    padding-left: 25vh;
-    padding-right: 20vh;
+    flex-wrap: wrap;
+    min-height: 500px;
+    justify-content: center;
+    max-width: 100%;
+    /* padding-left: 25vh;
+    padding-right: 20vh; */
 }
 
 .right-text {
     display: flex;
-    flex-wrap: wrap;
     color: white;
-    flex: 1;
-    height: 500px;
-    justify-content: space-between;
-    margin-left: 25vh;
-    margin-right: 25vh;
+    flex-wrap: wrap;
+    min-height: 500px;
+    justify-content: center;
+    max-width: 100%;
+    /* margin-left: 25vh;
+    margin-right: 25vh; */
 }
 
 .right-text div :first-child, 
@@ -184,7 +186,6 @@
 }
 
 .text-container {
-    width: 42%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,6 +225,7 @@ video {
     padding-top: 10px;
     padding-left: 10px;
     top: 20px;
+    max-width: 100%;
 }
 .mockup-1 img {
     z-index: -1;
@@ -234,6 +236,7 @@ video {
     width: 460px;
     right: 9.3vh;
     top: 10.3vh;
+    max-width: 100%;
 }
 
 .mockup-2 video {
